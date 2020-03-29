@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def say_hi():
-    return 'Hello There!\n'
+    return 'Hello There!!\n'
 
 @app.route('/phil/<path:wiki_url>')
 def phil(wiki_url):
