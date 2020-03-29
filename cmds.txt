@@ -1,0 +1,6 @@
+
+docker run -it -v $(pwd):/app -w /app -p 5000:5000 python bash
+docker run -it -v $(pwd):/app -w /app -p 5000:5000 phil:latest bash
+docker build -t phil:latest .
+
+docker run -d -p 5000:5000 phil:latest
