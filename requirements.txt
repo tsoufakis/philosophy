@@ -1,5 +1,5 @@
 beautifulsoup4==4.8.2
 Flask==1.1.1
-ipython==7.13.0
+ipython==7.16.3
 pytest==5.4.1
 requests==2.23.0
